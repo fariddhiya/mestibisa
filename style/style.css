@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'pedana', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;   
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+.img-header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 300px;
+}
+
+#content{
+    float: left;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h4{
+    font-size: 40px;
+    text-align: center;
+}
+
+h5{
+    font-size: 22px;
+}
+
+nav{
+    background-color: #356696;
+    padding: 1px;
+    position: sticky;
+    top: 0;
+}   
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: inline;
+    
+}
+
+.jumbotron{
+    background-image: linear-gradient(to right top, #356793, #3b75a1, #4183ae, #4892bc, #4fa1c9, #4eadd4, #4db9de, #4cc5e7, #3fd1ef, #2eddf6, #1ae9fb, #00f5ff);
+    font-size: 20px;
+    padding: 20px;
+    line-height: 1;
+    color: #000000;
+}
+ 
+.img-logo{
+    position: absolute;
+    display: inline;
+    width: 80px;
+    height: 80px;
+    -webkit-box-shadow: inset 0px 0px 55px 12px rgba(207,207,207,1);
+    -moz-box-shadow: inset 0px 0px 55px 12px rgba(207,207,207,1);
+    box-shadow: inset 0px 0px 55px 12px rgba(207,207,207,1);
+    margin: 10px 0px 0px 10px;
+}
+
+.jumbotron h1, h3{
+    margin: 11px 0px 0px 100px;
+    color: radial-gradient(circle, #356696, #356696, #356696, #356696, #356696, #4c719f, #607ca7, #7388b0, #9aa3c3, #bdc0d6, #dfdfea, #ffffff);
+}
+
+.jumbotron h1{
+    font-size: 40px;
+}
+
+.jumbotron h3{
+    font-size: 20px;
+}
+
+
+.profile table{
+    text-align: left;
+}
+
+
+
+.farid{
+    border-radius: 50%;
+    border: 5px solid #a6a6a6;
+}
+
+
+
+aside{
+    text-align: center;
+    float: right;
+    position: sticky;
+    top: 50px;
+    margin: 15px 100px 0px 0px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.profile img{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+    padding: 1px;
+
+    background-color: #356696;
+    color: white;
+    font-weight: bold;
+}
